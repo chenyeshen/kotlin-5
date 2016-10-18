@@ -36,8 +36,11 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val navigationView = findViewById(R.id.nav_view) as NavigationView?
         navigationView!!.setNavigationItemSelectedListener(this)
 
+        text1.text="好好学习";
+        text1.setTextColor(R.color.abc_color_highlight_material);
 
-        text.text="好好学习"
+
+
     }
 
     override fun onBackPressed() {
